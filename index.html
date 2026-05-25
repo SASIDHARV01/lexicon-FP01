@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexicon - Find The Right Word</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Lexicon</h1>
+        <p>Describe a situation, feeling, or action, and we'll find the exact word for it.</p>
+      </header>
+
+      <main>
+        <div class="input-container glass-panel">
+          <textarea id="situation-input" placeholder="e.g., The feeling of realizing you forgot something important..."></textarea>
+          <button id="find-btn" class="glow-btn">
+            <span class="btn-text">Find the Word</span>
+            <div class="loader hidden"></div>
+          </button>
+        </div>
+
+        <div id="result-container" class="result-container glass-panel hidden">
+          <h2 id="result-word">Word</h2>
+          <p id="result-phonetic" class="phonetic">/wɜːd/</p>
+          <p id="result-definition" class="definition">The definition will appear here.</p>
+          
+          <div class="examples-section">
+            <h3>Examples:</h3>
+            <ul id="result-examples">
+              <!-- Examples injected here -->
+            </ul>
+          </div>
+        </div>
+        
+        <div id="error-container" class="error-container hidden">
+          <p id="error-message"></p>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
