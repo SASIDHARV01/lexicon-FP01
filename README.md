@@ -1,4 +1,4 @@
-# Lexicon - Find The Right Word                              [Live Demo](https://lexicon-fp-01.vercel.app/)
+# Lexicon - Find The Right Word                                                           ~ [Live Demo](https://lexicon-fp-01.vercel.app/)
 
 Lexicon is a premium, modern web application designed for English learners and anyone who frequently experiences "tip of the tongue" moments. You simply describe a situation, feeling, or action, and Lexicon uses Google's Gemini AI to find the exact English word that matches your description.
 
